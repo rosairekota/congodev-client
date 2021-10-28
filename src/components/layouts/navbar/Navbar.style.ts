@@ -2,30 +2,35 @@ import Styled from "styled-components";
 
 export const Wrapper = Styled.div`
 .container{
-   padding:0px;
-   height: 90px;
-   box-shadow: rgba(1 1 1 1/15);
+   padding:0;
+   height: 70px;
    border-bottom: 0.5px solid rgb(240, 237, 237);
-   padding-top: 20px;
    font-size: 14px;
 }
-.nav{
-    max-width: 1128px;
+.navbar{
     margin:auto;
-    padding:12px 0 16px;
+    padding:0px 6%;
     display: flex;
     justify-content: space-between;
     position: relative;
+    z-index: 1;
     flex-wrap: nowrap;
+    padding-top: 12px;
     align-items: center;  
 }
-.nav a{
-    width: 135px;
-    height:34;
-    text-decoration: none;
-    
-    
+.collapse{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+nav{
+     margin-right:30px;
+     a{
+    margin-left:30px;
+    text-decoration: none;  
+    }
+}
+
 @media (max-width:768px) {
      .nav a{
           padding: 0 5px; 

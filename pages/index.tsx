@@ -15,7 +15,7 @@ const Home: React.FC<HomeProps> = () => {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<nav>
-				<NavBar />
+				<NavBar page={"home"} />
 			</nav>
 
 			<main className="main">
