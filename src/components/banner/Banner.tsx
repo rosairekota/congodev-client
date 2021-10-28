@@ -6,7 +6,7 @@ import svgOne from "../../../public/assets/illustrations/Vector1.svg";
 import svgTwo from "../../../public/assets/illustrations/Vector2.svg";
 import svgThree from "../../../public/assets/illustrations/Vector3.svg";
 import Signin from "../shared/signinBtn/Signin";
-import FormSearch from "../shared/FormSearch/FormSearch";
+import FormSearch from "../shared/form-search/FormSearch";
 type BannerType = {
 	title?: string;
 	description?: string;

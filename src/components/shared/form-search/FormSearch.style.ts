@@ -7,7 +7,7 @@ export const Wrapper = Styled.form`
     left: 0;
     position: absolute;
     top: 320px;
-    background: #FFFFFF;
+    background: ${BaseColors.defaultColor};
     border: 1px solid #374BB9;
     outline: none;
     &::placeholder{
@@ -28,8 +28,8 @@ export const Wrapper = Styled.form`
     color: #fff;
     cursor:pointer;
     &:hover{
-        background-color:${BaseColors.defaultColor};
-        color:${BaseColors.primaryColor};
+        background-color:${BaseColors.darkColor};
+        color:${BaseColors.defaultColor};
         text-align: center;
         transition: all 0.2s ease-out;
     }
