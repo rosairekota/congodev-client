@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
-import Banner from "../src/components/banner/Banner";
+import Banner from "../src/components/layouts/banner/Banner";
 import NavBar from "../src/components/layouts/navbar/Navbar";
 import { Wrapper } from "../src/components/layouts/navbar/Navbar.style";
-import ServiceSection from "../src/components/service-section/ServiceSection";
+import ServiceSection from "../src/components/layouts/service-section/ServiceSection";
 type HomeProps = {
 	title?: string;
 };

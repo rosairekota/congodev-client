@@ -1,5 +1,5 @@
 import React from "react";
-import SectionTitle from "../shared/section-title/SectionTitle";
+import SectionTitle from "../../shared/section-title/SectionTitle";
 import { Wrapper } from "./ServiceSection.style";
 
 export type ServiceSectionType = {};
