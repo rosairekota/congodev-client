@@ -20,6 +20,10 @@ body {
 	margin: 0;
 	font-family: "Roboto", sans-serif;
 	background-color: ${BaseColors.defaultColor};
+	background:#030450;
+	background: rgb(3,4,80);
+	//background: linear-gradient(360deg, rgba(3,4,80,1) 24%, rgba(3,4,80,0.8575805322128851) 67%);
+	background-color: #f7f7f7;
 }
 body {
 	overflow-y: scroll;
@@ -62,10 +66,12 @@ span {
 }
 section{
 	display: flex;
-	 max-width: 1200px;
+	max-width: 1200px;
 }
 
-
+.section{
+	padding:0px 6%;
+}
 
 `;
 

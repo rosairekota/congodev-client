@@ -5,32 +5,29 @@ import developerProfile from "../../../public/assets/emie.png";
 import svgOne from "../../../public/assets/illustrations/Vector1.svg";
 import svgTwo from "../../../public/assets/illustrations/Vector2.svg";
 import svgThree from "../../../public/assets/illustrations/Vector3.svg";
-import Signin from "../shared/btn-shared/Signin";
 import FormSearch from "../shared/form-search/FormSearch";
 type BannerType = {
-	title?: string;
-	description?: string;
+  title?: string;
+  description?: string;
 };
 const Banner: React.FC<BannerType> = (props) => {
-	return (
-		<>
-			<Wrapper>
-				<section className="banner">
-					<Hiro
-						title={" Avez-vous un projet innovant?"}
-						description="Trouvez un Dévéloppeur Qualifié et Compétent"
-						className="hiro"
-					/>
-					<LocalImage img={svgOne} className="img__svgOne" />
-					<LocalImage img={developerProfile} className="image" />
-					<LocalImage img={svgThree} className="img__svgThree" />
-					<LocalImage img={svgTwo} className="img__svgTwo" />
-				</section>
-				{/* <Image src={svgOne} alt={svgOne} className={"img__svgOne"} /> */}
-				<section>Banner</section>
-			</Wrapper>
-		</>
-	);
+  return (
+    <>
+      <Wrapper>
+        <section className="banner">
+          <Hiro
+            title={" Avez-vous un projet innovant?"}
+            description="Trouvez un Dévéloppeur Qualifié et Compétent"
+            className="hiro"
+          />
+          <LocalImage img={svgOne} className="img__svgOne" />
+          <LocalImage img={developerProfile} className="image" />
+          <LocalImage img={svgThree} className="img__svgThree" />
+          <LocalImage img={svgTwo} className="img__svgTwo" />
+        </section>
+      </Wrapper>
+    </>
+  );
 };
 
 export default Banner;

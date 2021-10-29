@@ -3,6 +3,7 @@ import Image from "next/image";
 import Banner from "../src/components/banner/Banner";
 import NavBar from "../src/components/layouts/navbar/Navbar";
 import { Wrapper } from "../src/components/layouts/navbar/Navbar.style";
+import ServiceSection from "../src/components/service-section/ServiceSection";
 type HomeProps = {
 	title?: string;
 };
@@ -20,6 +21,7 @@ const Home: React.FC<HomeProps> = () => {
 
 			<main className="main">
 				<Banner />
+				<ServiceSection />
 			</main>
 		</>
 	);

@@ -4,8 +4,9 @@ export const Wrapper = Styled.div`
 .container{
    padding:0;
    height: 70px;
-   border-bottom: 0.5px solid rgb(240, 237, 237);
+   //border-bottom: 0.5px solid rgb(240, 237, 237);
    font-size: 14px;
+   
 }
 .navbar{
     margin:auto;
@@ -52,7 +53,7 @@ nav{
 .searchBar{
     outline: none;
     padding: 10px;
-    border-radius:80px;
+    border-radius:40px;
     width: 30%;
     height: 32px;
     padding: 5px 10px 5px 15px;

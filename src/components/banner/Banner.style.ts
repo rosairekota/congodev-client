@@ -12,7 +12,11 @@ export const Wrapper = Styled.div`
  width: 100%;
  align-items:center;
  margin: auto;
-
+ &.banner__marketing{
+       background:red;
+   height:50px;
+ }
+ 
 }
 
 .hiro{
@@ -43,11 +47,17 @@ export const Wrapper = Styled.div`
     height:851px;
 }
 .img__svgThree{
-    z-index: -1;
+    z-index:-999;
+    position:absolute;
+    left: 5px;
+    top:-180px;
+}
+/* .img__svgThree{
+    z-index:1;
     position:absolute;
     left: 100px;
     top:0px;
-}
+} */
 .img__svgTwo{
     z-index: -1;
     position:absolute;

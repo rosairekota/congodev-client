@@ -6,9 +6,9 @@ export const Wrapper = Styled.div`
     padding: 12px 24px;
    
     background-color:${BaseColors.defaultColor};
-     /* background:#1755ff; */
+     background:#f7f7f7;
     color:${BaseColors.primaryColor};
-    border-radius:20px;
+    border-radius:40px;
     text-align: center;
     transition: all 0.2s ease-out;
     height: 30px;
