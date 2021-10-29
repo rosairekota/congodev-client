@@ -3,9 +3,7 @@ import { Wrapper } from "./SectionTitle.style";
 type SectionTitleType = {
   title: string;
 };
-const SectionTitle: React.FC<SectionTitleType> = ({
-  title,
-}): ReactElement<Element> => {
+const SectionTitle: React.FC<SectionTitleType> = ({ title }) => {
   return (
     <Wrapper>
       <h2>{title}</h2>
