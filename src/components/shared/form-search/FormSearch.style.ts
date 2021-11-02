@@ -2,9 +2,9 @@ import Styled from "styled-components";
 import { BaseColors } from "../../../../theme/_variables/base";
 export const Wrapper = Styled.form`
 .form__search{
-    width: 350px;
+    width: 400px;
     height: 43px;
-    left: 0;
+    left: 70px;
     position: absolute;
     top: 320px;
     background: ${BaseColors.defaultColor};
@@ -12,15 +12,16 @@ export const Wrapper = Styled.form`
     outline: none;
    
     &::placeholder{
+        font-family:"Montserrat-Regular";
         color:#535356;
         padding: 10px
     }
 }
 .btn__search{
     position: absolute;
-    width: 100px;
+    width: 110px;
     height: 43px;
-    left: 330px;
+    left: 470px;
     top: 320px;
     background: #121B4D;
     border: 1px solid #121B4D;

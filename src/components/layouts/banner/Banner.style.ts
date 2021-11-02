@@ -27,22 +27,24 @@ export const Wrapper = Styled.div`
     width: 50%;
 }
 .hiro h1{
-    font-family: "Roboto-bold";
+    font-family: "Montserrat";
     font-size:50px;
     font-weight: bold;
     line-height: 50px
 }
 .hiro p{
+    font-family:"Montserrat-Light";
     font-size:18px;
     font-weight: 200;
     line-height: 50px
+  
     
 }
 .image{
     z-index: -1;
     position:absolute;
     width: 412px;
-    left: 600px;
+    left: 700px;
     top:-10px;
     height:851px;
 }
@@ -62,14 +64,14 @@ export const Wrapper = Styled.div`
     z-index: -1;
     position:absolute;
     width: 412px;
-    right: -200px;
+    right: -150px;
     top:0px;
     height:851px;
 }
 .img__svgOne{
     position:absolute;
     width: 412px;
-    left: -100px;
+    left: -30px;
     top:-50px;
     height:851px;
     z-index: -1;

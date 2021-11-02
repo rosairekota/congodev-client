@@ -5,8 +5,8 @@ export const Wrapper = Styled.div`
     
     padding: 12px 24px;
    
-    background-color:${BaseColors.defaultColor};
-     background:#f7f7f7;
+  
+    background-color:${BaseColors.secondaryColor};
     color:${BaseColors.primaryColor};
     border-radius:40px;
     text-align: center;

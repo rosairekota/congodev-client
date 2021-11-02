@@ -1,10 +1,10 @@
 import React from "react";
 import { Wrapper } from "./Banner.style";
 import Image from "next/image";
-import developerProfile from "../../../public/assets/emie.png";
-import svgOne from "../../../public/assets/illustrations/Vector1.svg";
-import svgTwo from "../../../public/assets/illustrations/Vector2.svg";
-import svgThree from "../../../public/assets/illustrations/Vector3.svg";
+import developerProfile from "../../../../public/assets/emie.png";
+import svgOne from "../../../../public/assets/illustrations/Vector1.svg";
+import svgTwo from "../../../../public/assets/illustrations/Vector2.svg";
+import svgThree from "../../../../public/assets/illustrations/Vector3.svg";
 import FormSearch from "../../shared/form-search/FormSearch";
 type BannerType = {
   title?: string;
