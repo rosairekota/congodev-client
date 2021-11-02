@@ -5,9 +5,7 @@ height: 900px;
 .marketing{
     margin-top:100px;
     background-color:${BaseColors.defaultColor};
-    /* box-shadow: rgba(1 1 1 1/10);
-    border-bottom: 0.5px solid rgb(240, 237, 237); */
-    box-shadow: rgba(1 1 1 1/10);
+    box-shadow: rgba(1 1 1 1/15);
     height:100px;
     display:flex;
     justify-content: space-between;
@@ -18,6 +16,13 @@ height: 900px;
       font-weight:100;
       font-size:16px;
       color:#121b4d;
+    }
+    img{
+          width:50px;
+          height:50px;
+          color:#0000;
+          opacity:0.4;
+           
     }
   }
   .card__marketing{
@@ -55,22 +60,17 @@ height: 900px;
     }
 
   .services{
-    background-color: ${BaseColors.secondaryColor};;
-    height:500px;
-    display:flex;
-    justify-content:space-between;
-    align-items:start;
+    background-color: ${BaseColors.secondaryColor};
     .card__services{
       height:247px;
-      width:411px;
+      width:100%;
       background-color:#ffff;
       border-radius:10px;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       display:flex;
       flex-direction:column;
       justify-content:space-evenly;
-      padding:2%;
-      margin:1%;
+      padding:10%;
       .card__services-head{
         display:flex;
         align-items:center;
@@ -93,21 +93,8 @@ height: 900px;
         font-size:14px;
         line-height:2;
         text-align:justify;
-      
+        margin-top:5%;
       }
-    }
-  }
-  .services-bottom{
-    margin:0;
-    padding:0;
-     display:flex;
-    justify-content:flex-start;
-    align-items:flex-start;
-    position:relative;
-    top:1180px;
-    .card__services{
-      width:408px;
-       margin:0 1.5%;
     }
   }
 `;
