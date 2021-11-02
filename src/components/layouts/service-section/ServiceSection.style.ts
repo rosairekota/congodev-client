@@ -1,7 +1,7 @@
 import Styled from "styled-components";
 import { BaseColors } from "../../../../theme/_variables/base";
 export const Wrapper = Styled.div`
-height: 900px;
+height: 850px;
 .marketing{
     margin-top:100px;
     background-color:${BaseColors.defaultColor};
